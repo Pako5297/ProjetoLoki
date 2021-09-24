@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\Loki\Loki.Dominio\bin\Debug\net5.0\Loki.Dominio.deps.json
+C:\Users\user\source\repos\Loki\Loki.Dominio\bin\Debug\net5.0\Loki.Dominio.dll
+C:\Users\user\source\repos\Loki\Loki.Dominio\bin\Debug\net5.0\ref\Loki.Dominio.dll
+C:\Users\user\source\repos\Loki\Loki.Dominio\bin\Debug\net5.0\Loki.Dominio.pdb
+C:\Users\user\source\repos\Loki\Loki.Dominio\obj\Debug\net5.0\Loki.Dominio.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Loki\Loki.Dominio\obj\Debug\net5.0\Loki.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Loki\Loki.Dominio\obj\Debug\net5.0\Loki.Dominio.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Loki\Loki.Dominio\obj\Debug\net5.0\Loki.Dominio.AssemblyInfo.cs
+C:\Users\user\source\repos\Loki\Loki.Dominio\obj\Debug\net5.0\Loki.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Loki\Loki.Dominio\obj\Debug\net5.0\Loki.Dominio.dll
+C:\Users\user\source\repos\Loki\Loki.Dominio\obj\Debug\net5.0\ref\Loki.Dominio.dll
+C:\Users\user\source\repos\Loki\Loki.Dominio\obj\Debug\net5.0\Loki.Dominio.pdb

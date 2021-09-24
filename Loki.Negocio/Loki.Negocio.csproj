@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Loki.Dominio\Loki.Dominio.csproj" />
+    <ProjectReference Include="..\Loki.Infra.Data\Loki.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

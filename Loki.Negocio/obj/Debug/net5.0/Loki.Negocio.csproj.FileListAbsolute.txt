@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\Loki\Loki.Negocio\bin\Debug\net5.0\Loki.Negocio.deps.json
+C:\Users\user\source\repos\Loki\Loki.Negocio\bin\Debug\net5.0\Loki.Negocio.dll
+C:\Users\user\source\repos\Loki\Loki.Negocio\bin\Debug\net5.0\ref\Loki.Negocio.dll
+C:\Users\user\source\repos\Loki\Loki.Negocio\bin\Debug\net5.0\Loki.Negocio.pdb
+C:\Users\user\source\repos\Loki\Loki.Negocio\bin\Debug\net5.0\Loki.Dominio.dll
+C:\Users\user\source\repos\Loki\Loki.Negocio\bin\Debug\net5.0\Loki.Infra.Data.dll
+C:\Users\user\source\repos\Loki\Loki.Negocio\bin\Debug\net5.0\Loki.Dominio.pdb
+C:\Users\user\source\repos\Loki\Loki.Negocio\bin\Debug\net5.0\Loki.Infra.Data.pdb
+C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.AssemblyInfo.cs
+C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.csproj.CopyComplete
+C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.dll
+C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\ref\Loki.Negocio.dll
+C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.pdb

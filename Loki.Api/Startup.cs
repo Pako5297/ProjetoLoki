@@ -33,8 +33,7 @@ namespace Loki.Api
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddDbContext<LokiContext>(options =>
-         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<LokiContext>();
 
             services.AddScoped<ICartaoCreditoRepositorio, CartaoCreditoRepositorio>();
             services.AddScoped<ICartaoCreditoNegocio, CartaoCreditoNegocio>();

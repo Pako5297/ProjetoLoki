@@ -15,3 +15,6 @@ C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.cspro
 C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.dll
 C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\ref\Loki.Negocio.dll
 C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.pdb
+C:\Users\user\source\repos\Loki\Loki.Negocio\bin\Debug\net5.0\Loki.Negocio.runtimeconfig.json
+C:\Users\user\source\repos\Loki\Loki.Negocio\bin\Debug\net5.0\Loki.Negocio.runtimeconfig.dev.json
+C:\Users\user\source\repos\Loki\Loki.Negocio\obj\Debug\net5.0\Loki.Negocio.genruntimeconfig.cache

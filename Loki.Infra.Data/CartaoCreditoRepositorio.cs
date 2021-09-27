@@ -16,14 +16,13 @@ namespace Loki.Infra.Data
         {
             _context = context;
         }
-        public bool Inserir(CartaoCredito cartao)
+        public void Inserir(CartaoCredito cartao)
         {
             var dB = _context.Add(cartao);
             _context.SaveChanges();
-            throw new NotImplementedException();
         }
 
-        public bool SalvarDados(CartaoCredito cartaoCredito)
+        public void SalvarDados(CartaoCredito cartaoCredito)
         {
             throw new NotImplementedException();
         }

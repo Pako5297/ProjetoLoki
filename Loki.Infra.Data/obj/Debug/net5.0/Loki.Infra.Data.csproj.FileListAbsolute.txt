@@ -13,3 +13,6 @@ C:\Users\user\source\repos\Loki\Loki.Infra.Data\obj\Debug\net5.0\Loki.Infra.Data
 C:\Users\user\source\repos\Loki\Loki.Infra.Data\obj\Debug\net5.0\Loki.Infra.Data.dll
 C:\Users\user\source\repos\Loki\Loki.Infra.Data\obj\Debug\net5.0\ref\Loki.Infra.Data.dll
 C:\Users\user\source\repos\Loki\Loki.Infra.Data\obj\Debug\net5.0\Loki.Infra.Data.pdb
+C:\Users\user\source\repos\Loki\Loki.Infra.Data\bin\Debug\net5.0\Loki.Infra.Data.runtimeconfig.json
+C:\Users\user\source\repos\Loki\Loki.Infra.Data\bin\Debug\net5.0\Loki.Infra.Data.runtimeconfig.dev.json
+C:\Users\user\source\repos\Loki\Loki.Infra.Data\obj\Debug\net5.0\Loki.Infra.Data.genruntimeconfig.cache

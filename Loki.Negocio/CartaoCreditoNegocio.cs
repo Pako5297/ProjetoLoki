@@ -17,7 +17,7 @@ namespace Loki.Negocio
         {
             _cartaoRepositorio = cartaoRepositorio;
         }
-        public bool SalvarDados(CartaoCredito cartaoCredito)
+        public void SalvarDados(CartaoCredito cartaoCredito)
         {
             var resultado = _cartaoRepositorio.SalvarDados(cartaoCredito);
             throw new NotImplementedException();

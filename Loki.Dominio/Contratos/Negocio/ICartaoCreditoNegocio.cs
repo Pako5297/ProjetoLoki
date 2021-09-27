@@ -9,6 +9,6 @@ namespace Loki.Dominio.Contratos.Negocio
 {
     public interface ICartaoCreditoNegocio
     {
-        public bool SalvarDados(CartaoCredito cartaoCredito);
+        public void SalvarDados(CartaoCredito cartaoCredito);
     }
 }

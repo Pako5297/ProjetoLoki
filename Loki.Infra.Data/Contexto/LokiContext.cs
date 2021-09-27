@@ -1,5 +1,6 @@
 ﻿using Loki.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,14 @@ namespace Loki.Infra.Data.Contexto
 {
     public class LokiContext : DbContext
     {
-        public LokiContext(DbContextOptions<LokiContext> options)
-            : base(options)
+        public readonly IConfiguration Configuration;
+        public LokiContext(IConfiguration configuration)
         {
+            Configuration = configuration;
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(Configuration.GetConnectionString("LokiContext"));
         }
         public DbSet<CartaoCredito> CartaoCreditos { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }

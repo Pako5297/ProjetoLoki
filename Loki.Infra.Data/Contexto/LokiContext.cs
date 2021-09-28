@@ -22,6 +22,7 @@ namespace Loki.Infra.Data.Contexto
         }
         public DbSet<CartaoCredito> CartaoCreditos { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
+        public DbSet<LogApi> Api { get; set; }
 
         
     }

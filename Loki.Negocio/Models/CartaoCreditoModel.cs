@@ -1,11 +1,13 @@
 ﻿using Loki.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Loki.Api.Models
+namespace Loki.Negocio.Models
 {
     public class CartaoCreditoModel
     {

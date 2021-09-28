@@ -1,11 +1,8 @@
-﻿using Loki.Api.Models;
+﻿using AutoMapper;
 using Loki.Dominio.Contratos.Negocio;
 using Loki.Dominio.Entidades;
+using Loki.Negocio.Models;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Loki.Api.Controllers
 {
@@ -13,34 +10,20 @@ namespace Loki.Api.Controllers
     [Route("[controller]")]
     public class CartaoCreditoController : ControllerBase
     {
+        private readonly IMapper _mapper;
+
         private readonly ICartaoCreditoNegocio _cartaoCredito;
-        public CartaoCreditoController(ICartaoCreditoNegocio cartaoCredito)
+        public CartaoCreditoController(ICartaoCreditoNegocio cartaoCredito, IMapper mapper)
         {
             _cartaoCredito = cartaoCredito;
+            _mapper = mapper;
         }
 
-        private CartaoCredito RetornarCartaoCredito(CartaoCreditoModel model)
-        {
-            return new CartaoCredito
-            {
-                Bandeira = model.Bandeira,
-                Cpf = model.Cpf,
-                Cvv = model.Cvv,
-                DataValidade = model.DataValidade,
-                Email = model.Email,
-                Enderecos = model.Enderecos,
-                Nascimento = model.Nascimento,
-                Nome = model.Nome,
-                Numero = model.Numero,
-                Rg = model.Rg,
-                Senha = model.Senha
-            };
-        }
 
         [HttpPost]
-        public IActionResult Post(CartaoCreditoModel cartao)
+        public IActionResult Post([FromBody]CartaoCreditoModel cartao)
         {
-            _cartaoCredito.SalvarDados(RetornarCartaoCredito(cartao));
+            _cartaoCredito.SalvarDados(_mapper.Map<CartaoCredito>(cartao));
             
             return Ok();
         }

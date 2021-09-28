@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Loki.Infra.Data.Migrations
 {
     [DbContext(typeof(LokiContext))]
-    [Migration("20210925144741_Inicial")]
-    partial class Inicial
+    [Migration("20210928035511_Inicio")]
+    partial class Inicio
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -102,6 +102,24 @@ namespace Loki.Infra.Data.Migrations
                     b.HasIndex("CartaoCreditoId");
 
                     b.ToTable("Enderecos");
+                });
+
+            modelBuilder.Entity("Loki.Dominio.Entidades.LogApi", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("DataGravacao")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Request")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Api");
                 });
 
             modelBuilder.Entity("Loki.Dominio.Entidades.Endereco", b =>

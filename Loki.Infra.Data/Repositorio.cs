@@ -9,9 +9,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Loki.Infra.Data
 {
-    class Repositorio<T> : IDisposable, IRepositorio<T> where T : class
+    public class Repositorio<T> : IDisposable, IRepositorio<T> where T : class
     {
-        private readonly LokiContext _context;
+        protected internal readonly LokiContext _context;
 
         public Repositorio(LokiContext context)
         {

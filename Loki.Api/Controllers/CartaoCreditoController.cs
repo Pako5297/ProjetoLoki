@@ -18,6 +18,26 @@ namespace Loki.Api.Controllers
             _cartaoCredito = cartaoCredito;
             _mapper = mapper;
         }
+        [HttpGet]
+        public IActionResult RetornaTodosCartoes()
+        {
+            var listCartao = _cartaoCredito.RetornaTodosCartoes();
+            return Ok(listCartao);
+        }
+
+        [HttpGet("cpf")]
+        public IActionResult RetornaPorCpf([FromHeader] string cpf)
+        {
+            var cartaoCpf = _cartaoCredito.RetornaCartaoPorCpf(cpf);
+            return Ok(cartaoCpf);
+        }
+
+        [HttpDelete("cpf")]
+        public IActionResult ExcluirDados([FromHeader] int id)
+        {
+            _cartaoCredito.DeletarDados(id);
+            return Ok();
+        }
 
 
         [HttpPost]
